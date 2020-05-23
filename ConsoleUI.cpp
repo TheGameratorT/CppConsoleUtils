@@ -77,12 +77,6 @@ namespace ConUI
 
 	void ClearBox(int Xa, int Ya, int Xb, int Yb, int ldIntervalMs)
 	{
-		//Xa = Horizontal position of the upper left corner
-		//Ya = Vertical position of the upper left corner
-		//Xb = Horizontal position of the lower right corner
-		//Yb = Vertical position of the lower right corner
-		//ldIntervalMs = Delay between line deletion
-
 		std::chrono::milliseconds timespan(ldIntervalMs);
 
 		int Xd = Xb - Xa; //Calculate box width
